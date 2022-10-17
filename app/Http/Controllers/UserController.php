@@ -7,6 +7,8 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Events\Registered;
+use Intervention\Image\Image;
+use Image as InterventionImage;
 
 class UserController extends Controller
 {

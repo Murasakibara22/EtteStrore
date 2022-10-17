@@ -82,7 +82,7 @@
                           <a href="#"> <button type="button" class="btn btn-outline-dark bg-dark text-white">Voir </button>  </a>           
                           </td>
                            <td class="py-1">
-                            <img src="images/Categorie/{{$categories->photo1}}" alt=""> 
+                            <img src="images/Categorie/{{$categories->photo}}" alt=""> 
                            </td>
                           <td>
                                <a href="/Categorie_edit/{{$categories->slug}}">  <button type="button" class="btn btn-outline-primary">Modifier</button> </a> 
