@@ -18,6 +18,7 @@ class CreateCategoriesTable extends Migration
             $table->string('libelle');
             $table->string('description');
             $table->string('photo');
+            $table->string('slug')->unique();
             $table->timestamps();
         });
     }

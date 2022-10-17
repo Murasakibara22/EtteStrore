@@ -18,6 +18,7 @@ class CreateCommandesTable extends Migration
             $table->date('date');
             $table->unsignedInteger('montant');
             $table->string('details');
+            $table->string('slug')->unique();
             $table->timestamps();
 
 

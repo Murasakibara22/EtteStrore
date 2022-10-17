@@ -16,6 +16,7 @@ class CreateProduitCommandersTable extends Migration
         Schema::create('produit_commanders', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedInteger('qte');
+            $table->string('slug')->unique();
             $table->timestamps();
 
             $table->unsignedBigInteger('commande_id');

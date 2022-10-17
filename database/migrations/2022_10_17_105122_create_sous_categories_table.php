@@ -17,6 +17,7 @@ class CreateSousCategoriesTable extends Migration
             $table->bigIncrements('id');
             $table->string('libelle');
             $table->text('description');
+            $table->string('slug')->unique();
             $table->timestamps();
 
             $table->unsignedBigInteger('categorie_id');

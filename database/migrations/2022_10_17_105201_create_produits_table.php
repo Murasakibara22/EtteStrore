@@ -22,6 +22,7 @@ class CreateProduitsTable extends Migration
             $table->unsignedInteger('prix');
             $table->text('description');
             $table->unsignedInteger('qte_stock');
+            $table->string('slug')->unique();
             $table->timestamps();
 
             $table->unsignedBigInteger('souscategorie_id');
