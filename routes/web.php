@@ -17,8 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+
+
+Route::middleware(['auth', 'role:admin'])->group(function(){
+    Route::get('/dashboard',[AdminController::class , 'index'])->middleware(['auth'])->name('dashboard');
+
+    
+});
+
+Route::get('/deconnexion',[AdminController::class , 'deconnexion'] );
 
 require __DIR__.'/auth.php';
