@@ -16,7 +16,7 @@
 
                       <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-3" value="{{ old($categorie->libelle)  ??  $categorie->libelle}}" id="name" placeholder="Titre" name="titre"
+                                    <input type="text" class="form-control p-3" value="{{ old($categorie->libelle)  ??  $categorie->libelle}}" id="name" placeholder="Titre" name="libelle"
                                         required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
@@ -28,9 +28,9 @@
                                 <p class="help-block text-danger"></p>
                             </div>
 
-                            <input type="file" id="real-file" hidden="hidden" name="photo1" />
-                            <button type="button" id="custom-button" name="photo1">choisir</button>
-                            <span id="custom-text">{{ old($categorie->photo1)  ??  $categorie->photo1}}</span>
+                            <input type="file" id="real-file" hidden="hidden" name="photo" />
+                            <button type="button" id="custom-button" name="photo">choisir</button>
+                            <span id="custom-text">{{ old($categorie->photo)  ??  $categorie->photo1}}</span>
                             
                             <input type="hidden" name="token" value="{{ csrf_token() }}" />
                             

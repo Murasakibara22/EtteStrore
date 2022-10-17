@@ -373,17 +373,17 @@
 
 <!--Nos services -->
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#Services" aria-expanded="false" aria-controls="form-elements">
+            <a class="nav-link" data-bs-toggle="collapse" href="#souscat" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi  mdi-layers-outline"></i>
-              <span class="menu-title">Nos Service</span>
+              <span class="menu-title">Sous Categories</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="Services" >
+            <div class="collapse" id="souscat" >
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/addServices"> Ajouter </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/new_SousCategorie"> Ajouter </a></li>
               </ul>
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Services_list"> Voir tous </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/SousCategorie_list"> Voir tous </a></li>
               </ul>
             </div>
           </li>
