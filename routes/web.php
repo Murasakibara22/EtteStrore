@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProduitController;
 use App\Http\Controllers\SousCatController;
 use App\Http\Controllers\CategorieController;
 
@@ -74,6 +75,22 @@ Route::put('/SousCategoriEdit/{slug}', [SousCatController::class , 'updateSousCa
 Route::get('/SousCategorie_delete/{slug}', [SousCatController::class , 'deleteSousCat']);
             
 Route::delete('/SousCategoriDelete/{slug}', [SousCatController::class , 'destroySousCat']);
+
+
+    //produits
+Route::get('/new_produit', [ProduitController::class , 'newProd']);
+
+Route::post('/new_produit', [ProduitController::class , 'addProd'])->name('addProd');
+    
+Route::get('/Produit_list', [ProduitController::class , 'listProduit']);
+            
+Route::get('/Produit_edit/{slug}', [ProduitController::class , 'editProduit']);
+            
+Route::put('/ProduitEdit/{slug}', [ProduitController::class , 'updateProduit'])->name('ModifProduit');
+            
+Route::get('/Produit_delete/{slug}', [ProduitController::class , 'deleteProduit']);
+            
+Route::delete('/ProduitDelete/{slug}', [ProduitController::class , 'destroyProduit']);
 
 });
 

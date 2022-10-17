@@ -422,17 +422,17 @@
 
 <!--Actualites -->
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#tem" aria-expanded="false" aria-controls="form-elements">
+            <a class="nav-link" data-bs-toggle="collapse" href="#prod" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-drawing-box"></i>
-              <span class="menu-title">Temoigange</span>
+              <span class="menu-title">Produits</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="tem" >
+            <div class="collapse" id="prod" >
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/addTemoignage"> Ajouter </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/new_produit"> Ajouter </a></li>
               </ul>
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Temoignage_list"> Voir tous </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/Produit_list"> Voir tous </a></li>
               </ul>
             </div>
           </li>
