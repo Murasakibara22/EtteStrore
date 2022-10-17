@@ -172,8 +172,8 @@ class ProduitController extends Controller
         $produit = Produit::where('slug', $slug)->first();
         if(isset($produit))
         {
-            $produit->dele();
-            if($produit->dele()){
+            $produit->delete();
+            if($produit->delete()){
                 return redirect('/Produit_list')->with('SuppSuccess', 'produit supprimer avec succes');
             }else{
                 return redirect('/Produit_list')->with('NotSupp', 'produit ne peut pas etre supprimer');

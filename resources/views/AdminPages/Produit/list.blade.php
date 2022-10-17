@@ -26,11 +26,6 @@
   </div>
 @endif
 
-@if ( session('NotSupp'))
-  <div class="alert alert-success">
-   Le produit n'a pas ete suprimer Veuillez ressayer
-  </div>
-@endif
 
 <div class="col-lg-15 grid-margin stretch-card">
               <div class="card">
