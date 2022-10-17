@@ -40,7 +40,7 @@ class ProduitController extends Controller
         $prod->slug   = Str::slug("$request->token". Hash::make($request->libelle),"-");
         if (request()->file('photo1')) {
             $img = request()->file('photo1');
-                $photo = md5($img->getClientOriginalExtension().time().$request->email).".".$img->getClientOriginalExtension();
+                $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
                 InterventionImage::make($source)->fit(212,207)->save($target);
@@ -50,7 +50,7 @@ class ProduitController extends Controller
         }
         if (request()->file('photo2')) {
             $img = request()->file('photo2');
-                $photo = md5($img->getClientOriginalExtension().time().$request->email).".".$img->getClientOriginalExtension();
+                $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
                 InterventionImage::make($source)->fit(212,207)->save($target);
@@ -60,7 +60,7 @@ class ProduitController extends Controller
         }
         if (request()->file('photo3')) {
             $img = request()->file('photo3');
-                $photo = md5($img->getClientOriginalExtension().time().$request->email).".".$img->getClientOriginalExtension();
+                $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
                 InterventionImage::make($source)->fit(212,207)->save($target);
@@ -80,9 +80,107 @@ class ProduitController extends Controller
 
 
 
-    public function listProduit(){
-
+    public function listProduit()
+    {
         $produit = Produit::all();
         return view('AdminPages.Produit.list', compact('produit'));
+    }
+
+    public function editProduit($slug)
+    {
+        $produit = Produit::where('slug', $slug)->first();
+        if(isset($produit))
+        {
+            $souscat =SousCategorie::all();
+            return view('AdminPages.Produit.edit', compact('produit', 'souscat'));
+        }else{
+            return redirect('/Produit_list')->with('NotExist', "le produit specifier n'existe pas");
+        }
+    }
+
+
+
+    public function updateProduit(Request $request, $slug)
+    {
+        $produit = Produit::where('slug', $slug)->first();
+        if(isset($produit))
+        {
+            $produit->libelle                = $request->libelle;
+            $produit->prix                   = $request->prix;
+            $produit->souscategorie_id       = $request->souscategorie_id;
+            $produit->qte_stock               = $request->qte_stock;
+            $produit->type                   = $request->type;
+            $produit->description            = $request->description;
+            $produit->slug                    = Str::slug("$request->token". Hash::make($request->libelle),"-");
+            if (request()->file('photo1')) {
+                $img = request()->file('photo1');
+                    $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
+                    $source = $img;
+                    $target = 'images/Produit/'.$photo;
+                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    $produit->photo1   =  $photo;
+            }else{
+                $produit->photo1   = "default.jpg";
+            }
+            if (request()->file('photo2')) {
+                $img = request()->file('photo2');
+                    $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
+                    $source = $img;
+                    $target = 'images/Produit/'.$photo;
+                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    $produit->photo2   =  $photo;
+            }else{
+                $produit->photo2   = "default.jpg";
+            }
+            if (request()->file('photo3')) {
+                $img = request()->file('photo3');
+                    $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
+                    $source = $img;
+                    $target = 'images/Produit/'.$photo;
+                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    $produit->photo3   =  $photo;
+            }else{
+                $produit->photo3   = "default.jpg";
+            }
+    
+            $produit->update();
+    
+            if($produit->update()){
+                return redirect('/Produit_list')->with('Modifsuccess', 'Produit modifier avce succes ');
+            }else{
+                return redirect('/Produit_list')->with('NotModif', 'Produit non sauvegarder');
+            }
+        }else{
+            return redirect('/Produit_list')->with('NotExist', "le produit specifier n'existe pas");
+        }
+    }
+
+    public function deleteProduit($slug)
+    {
+        $produit = Produit::where('slug', $slug)->first();
+        if(isset($produit))
+        {
+            return view('AdminPages.Produit.delete', compact('produit'));
+        }else{
+            return redirect('/Produit_list')->with('NotExist', "le produit specifier n'existe pas");
+        }
+    }
+
+
+    public function destroyProduit($slug)
+    {
+        $produit = Produit::where('slug', $slug)->first();
+        if(isset($produit))
+        {
+            $produit->dele();
+            if($produit->dele()){
+                return redirect('/Produit_list')->with('SuppSuccess', 'produit supprimer avec succes');
+            }else{
+                return redirect('/Produit_list')->with('NotSupp', 'produit ne peut pas etre supprimer');
+            }
+           
+        }else{
+            return redirect('/Produit_list')->with('NotExist', "le produit specifier n'existe pas");
+        }
     }
 }

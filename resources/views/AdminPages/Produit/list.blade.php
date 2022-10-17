@@ -2,6 +2,36 @@
 
 @section('content')
 
+@if ( session('Modifsuccess'))
+  <div class="alert alert-success">
+   Modifier avec succès
+  </div>
+@endif
+
+@if ( session('NotExist'))
+  <div class="alert alert-danger">
+   Un champ n'est pas correctement remplis
+  </div>
+@endif
+
+@if ( session('NotModif'))
+  <div class="alert alert-danger">
+   Le produit n'a pas pu etre modifier
+  </div>
+@endif
+
+@if ( session('SuppSuccess'))
+  <div class="alert alert-success">
+   Le produit a ete supprimer avec succes 
+  </div>
+@endif
+
+@if ( session('NotSupp'))
+  <div class="alert alert-success">
+   Le produit n'a pas ete suprimer Veuillez ressayer
+  </div>
+@endif
+
 <div class="col-lg-15 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
@@ -34,7 +64,7 @@
                           {{$produits->libelle}}
                           </td>
                           <td>
-                            {{$produits->prix}}
+                            {{$produits->prix}} FCFA
                           </td>
                           <td class="text-success"> 
                             <i class="ti-arrow-up">
