@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategorieController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +40,23 @@ Route::middleware(['auth', 'role:admin'])->group(function(){
     Route::get('Userdelete/{slug}', [UserController::class , 'deleteUser']);
 
     Route::delete('/Userdele/{slug}', [UserController::class , 'destroyUser']);
+
+
+    
+            //categories
+Route::get('/newCategorie', [CategorieController::class , 'newCat']);
+
+Route::post('/new_Categorie', [CategorieController::class , 'addCat'])->name('addCat');
+
+Route::get('/Categorie_list', [CategorieController::class , 'listCat']);
+
+Route::get('/Categorie_edit/{slug}', [CategorieController::class , 'editCat']);
+
+Route::put('/CategoriEdit/{slug}', [CategorieController::class , 'updateCat'])->name('ModifCat');
+
+Route::get('/Categorie_delete/{slug}', [CategorieController::class , 'deleteCat']);
+
+Route::delete('/CategoriDelete/{slug}', [CategorieController::class , 'destroyCat']);
 
 });
 

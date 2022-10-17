@@ -6,6 +6,8 @@ use App\Models\Categorie;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Intervention\Image\Image;
+use Image as InterventionImage;
 
 class CategorieController extends Controller
 {
@@ -49,7 +51,7 @@ class CategorieController extends Controller
         public function listCat(){
             
             $categorie = Categorie::all();
-            return view('AdminPages.Categorie.list', compact('categorie', $categorie));
+            return view('AdminPages.Categorie.list', compact('categorie'));
 
         }
 
