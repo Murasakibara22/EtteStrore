@@ -24,6 +24,7 @@
     <link rel="shortcut icon" href="{{ asset('dashStyle/assets/images/favicon.png') }}" />
   </head>
   <body>
+  <div class="container-scroller">
 
   @include('dash.partials.sidebar')
 
@@ -36,6 +37,7 @@
 
 
 
+  </div>
 
       <!-- container-scroller -->
     <!-- plugins:js -->
