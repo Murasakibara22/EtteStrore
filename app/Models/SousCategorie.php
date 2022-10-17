@@ -2,10 +2,29 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Produit;
+use App\Models\Categorie;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class SousCategorie extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'id',
+        'categorie_id',
+        'libelle',
+        'description',
+        'created_at',
+        'updated_at',
+        'photo'
+    ];
+
+    public function categorie() {
+        return $this->belongsTo(Categorie::class, 'categorie_id');
+    }
+
+    public function prod() {
+        return $this->hasMany(Produit::class);
+    }
 }

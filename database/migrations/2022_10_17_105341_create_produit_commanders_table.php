@@ -14,8 +14,21 @@ class CreateProduitCommandersTable extends Migration
     public function up()
     {
         Schema::create('produit_commanders', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->unsignedInteger('qte');
             $table->timestamps();
+
+            $table->unsignedBigInteger('commande_id');
+            $table->foreign('commande_id')
+                ->references('id')
+                ->on('commandes')
+                ->onDelete('cascade');
+            
+            $table->unsignedBigInteger('produit_id');
+            $table->foreign('produit_id')
+                ->references('id')
+                ->on('produits')
+                ->onDelete('cascade'); 
         });
     }
 

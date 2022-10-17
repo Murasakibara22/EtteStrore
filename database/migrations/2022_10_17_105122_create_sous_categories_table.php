@@ -14,8 +14,16 @@ class CreateSousCategoriesTable extends Migration
     public function up()
     {
         Schema::create('sous_categories', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->string('libelle');
+            $table->text('description');
             $table->timestamps();
+
+            $table->unsignedBigInteger('categorie_id');
+            $table->foreign('categorie_id')
+                ->references('id')
+                ->on('categories')
+                ->onDelete('cascade');
         });
     }
 

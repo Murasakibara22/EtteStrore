@@ -14,8 +14,18 @@ class CreateCommandesTable extends Migration
     public function up()
     {
         Schema::create('commandes', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->date('date');
+            $table->unsignedInteger('montant');
+            $table->string('details');
             $table->timestamps();
+
+
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
         });
     }
 
