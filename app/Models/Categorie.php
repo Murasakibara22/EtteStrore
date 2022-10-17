@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\SousCategorie;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -21,5 +22,13 @@ class Categorie extends Model
 
     public function Souscat() {
         return $this->hasMany(SousCategorie::class);
+    }
+
+    public function delete()
+    {
+       DB::transaction(function(){
+            $this->Souscat()->delete();
+            parent::delete();
+       });
     }
 }

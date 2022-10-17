@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Models\User;
 use App\Models\ProduitCommander;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -27,5 +28,13 @@ class Commande extends Model
 
     public function produit_com(){
         return $this->hasMany(ProduitCommander::class);
+    }
+
+    public function delete()
+    {
+       DB::transaction(function(){
+            $this->produit_com()->delete();
+            parent::delete();
+       });
     }
 }

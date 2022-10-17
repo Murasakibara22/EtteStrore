@@ -27,4 +27,12 @@ class SousCategorie extends Model
     public function prod() {
         return $this->hasMany(Produit::class);
     }
+
+    public function delete()
+    {
+       DB::transaction(function(){
+            $this->prod()->delete();
+            parent::delete();
+       });
+    }
 }
