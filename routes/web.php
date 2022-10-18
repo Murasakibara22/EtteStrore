@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProduitController;
 use App\Http\Controllers\SousCatController;
+use App\Http\Controllers\CommandeController;
 use App\Http\Controllers\CategorieController;
 
 /*
@@ -91,6 +92,10 @@ Route::put('/ProduitEdit/{slug}', [ProduitController::class , 'updateProduit'])-
 Route::get('/Produit_delete/{slug}', [ProduitController::class , 'deleteProduit']);
             
 Route::delete('/ProduitDelete/{slug}', [ProduitController::class , 'destroyProduit']);
+
+
+//commantaires
+Route::get('/commentaire_list', [CommandeController::class , 'listAllCom']);
 
 });
 

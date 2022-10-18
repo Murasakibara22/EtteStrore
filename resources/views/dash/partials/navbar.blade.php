@@ -298,16 +298,16 @@
             </div>
           </li>
 
-  <!-- Commentaires-->
+  <!-- Commandes-->
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+            <a class="nav-link" data-bs-toggle="collapse" href="#com" aria-expanded="false" aria-controls="charts">
               <i class="menu-icon mdi mdi-message-processing "></i>
-              <span class="menu-title">Commentaires</span>
+              <span class="menu-title">Commandes</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="charts">
+            <div class="collapse" id="com">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/comment_list">Tous</a></li>
+                <li class="nav-item"> <a class="nav-link" href="/commandes_list">Tous</a></li>
               </ul>
              <!-- <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="/comdate">Par année</a></li>
@@ -336,7 +336,7 @@
 
 
 
-          <!--Presentation -->
+          <!--Categories -->
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#form-eleme" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-card-text-outline"></i>
@@ -371,7 +371,7 @@
             </div>
           </li>
 
-<!--Nos services -->
+<!--Sous Categories -->
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#souscat" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi  mdi-layers-outline"></i>
@@ -420,7 +420,7 @@
             </div>
           </li>
 
-<!--Actualites -->
+<!--Produits -->
         <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#prod" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-drawing-box"></i>

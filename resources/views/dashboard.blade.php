@@ -329,16 +329,16 @@
             </div>
           </li>
 
-  <!-- Commentaires-->
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+  <!-- Commandes-->
+  <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#com" aria-expanded="false" aria-controls="charts">
               <i class="menu-icon mdi mdi-message-processing "></i>
-              <span class="menu-title">Commentaires</span>
+              <span class="menu-title">Commandes</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="charts">
+            <div class="collapse" id="com">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/comment_list">Tous</a></li>
+                <li class="nav-item"> <a class="nav-link" href="/commandes_list">Tous</a></li>
               </ul>
              <!-- <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="/comdate">Par année</a></li>
@@ -367,19 +367,19 @@
 
 
 
-          <!--Presentation -->
-          <li class="nav-item">
+           <!--Categories -->
+           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#form-eleme" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-card-text-outline"></i>
-              <span class="menu-title">Presentation</span>
+              <span class="menu-title">Categories</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="form-eleme" >
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/addPresentate"> Ajouter </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/newCategorie"> Ajouter </a></li>
               </ul>
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Presentate_list"> Voir tous </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/Categorie_list"> Voir tous </a></li>
               </ul>
             </div>
           </li>
@@ -402,19 +402,19 @@
             </div>
           </li>
 
-<!--Nos services -->
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#Services" aria-expanded="false" aria-controls="form-elements">
+<!--Sous Categories -->
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#souscat" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi  mdi-layers-outline"></i>
-              <span class="menu-title">Nos Service</span>
+              <span class="menu-title">Sous Categories</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="Services" >
+            <div class="collapse" id="souscat" >
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/addServices"> Ajouter </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/new_SousCategorie"> Ajouter </a></li>
               </ul>
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Services_list"> Voir tous </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/SousCategorie_list"> Voir tous </a></li>
               </ul>
             </div>
           </li>
@@ -451,19 +451,19 @@
             </div>
           </li>
 
-<!--Actualites -->
-<li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#tem" aria-expanded="false" aria-controls="form-elements">
+       <!--Produits -->
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#prod" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-drawing-box"></i>
-              <span class="menu-title">Temoigange</span>
+              <span class="menu-title">Produits</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="tem" >
+            <div class="collapse" id="prod" >
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/addTemoignage"> Ajouter </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/new_produit"> Ajouter </a></li>
               </ul>
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/Temoignage_list"> Voir tous </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/Produit_list"> Voir tous </a></li>
               </ul>
             </div>
           </li>
