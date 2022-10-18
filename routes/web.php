@@ -95,7 +95,7 @@ Route::delete('/ProduitDelete/{slug}', [ProduitController::class , 'destroyProdu
 
 
 //commantaires
-Route::get('/commentaire_list', [CommandeController::class , 'listAllCom']);
+Route::get('/commandes_list', [CommandeController::class , 'listAllCom']);
 
 });
 
