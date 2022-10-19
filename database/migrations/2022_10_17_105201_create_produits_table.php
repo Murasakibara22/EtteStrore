@@ -19,6 +19,9 @@ class CreateProduitsTable extends Migration
             $table->string('photo1');
             $table->string('photo2');
             $table->string('photo3');
+            $table->string('type');
+            $table->string('taille');
+            $table->string('couleur');
             $table->unsignedInteger('prix');
             $table->text('description');
             $table->unsignedInteger('qte_stock');

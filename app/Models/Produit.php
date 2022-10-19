@@ -18,6 +18,8 @@ class Produit extends Model
         'photo1',
         'photo2',
         'photo3',
+        'taille',
+        'couleur',
         'prix',
         'type',
         'qte_stock',
