@@ -112,6 +112,8 @@ class ProduitController extends Controller
             $produit->souscategorie_id       = $request->souscategorie_id;
             $produit->qte_stock               = $request->qte_stock;
             $produit->type                   = $request->type;
+            $prod->taille              = $request->taille;
+            $prod->couleur              = $request->couleur;
             $produit->description            = $request->description;
             $produit->slug                    = Str::slug("$request->token". Hash::make($request->libelle),"-");
             if (request()->file('photo1')) {
