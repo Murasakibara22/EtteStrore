@@ -31,7 +31,7 @@ class PartenaireController extends Controller
                     $messi = md5($img->getClientOriginalExtension().time().$request->updated_at).".".$img->getClientOriginalExtension();
                     $source = $img;
                     $target = 'images/partenaires/'.$messi;
-                    InterventionImage::make($source)->fit(276,88)->save($target);
+                    InterventionImage::make($source)->fit(210,57)->save($target);
                     $partenaire->photo   =  $messi;
         }else {
             $partenaire->photo = 'default.jpg';
@@ -80,7 +80,7 @@ class PartenaireController extends Controller
                         $messi = md5($img->getClientOriginalExtension().time().$request->mobile).".".$img->getClientOriginalExtension();
                         $source = $img;
                         $target = 'images/partenaires/'.$messi;
-                        InterventionImage::make($source)->fit(276,88)->save($target);
+                        InterventionImage::make($source)->fit(210,57)->save($target);
                         $partenaire->photo   =  $messi;
                     }
                

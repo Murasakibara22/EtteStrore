@@ -7,6 +7,7 @@ use App\Http\Controllers\ProduitController;
 use App\Http\Controllers\SousCatController;
 use App\Http\Controllers\CommandeController;
 use App\Http\Controllers\CategorieController;
+use App\Http\Controllers\PartenaireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -93,6 +94,21 @@ Route::get('/Produit_delete/{slug}', [ProduitController::class , 'deleteProduit'
             
 Route::delete('/ProduitDelete/{slug}', [ProduitController::class , 'destroyProduit']);
 
+
+// Partenaires
+Route::get('/addPartnaire', [PartenaireController ::class , 'newPartnaire']);
+
+Route::post('/addPartnaire', [PartenaireController ::class , 'addPartnaire'])->name('AddPartenaire');
+
+Route::get('/Partnaire_list', [PartenaireController ::class , 'listAllPartnaire']);
+
+Route::get('/Partnaire_edit/{slug}', [PartenaireController ::class , 'editPartnaire']);
+
+Route::put('/PartnaireEdit/{slug}', [PartenaireController ::class , 'editPartnaires'])->name('editPartnaires');
+
+Route::get('Partnairedelete/{slug}', [PartenaireController ::class , 'deletePartnaire']);
+
+Route::delete('/Partnairedele/{slug}', [PartenaireController ::class , 'destroyPartnaire']);
 
 //commantaires
 Route::get('/commandes_list', [CommandeController::class , 'listAllCom']);
