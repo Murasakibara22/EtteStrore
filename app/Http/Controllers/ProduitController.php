@@ -30,14 +30,16 @@ class ProduitController extends Controller
             'photo2' => ['required'],
         ]);
 
-        $prod                = new Produit ;
-        $prod->libelle       = $request->libelle;
-        $prod->prix       = $request->prix;
-        $prod->souscategorie_id       = $request->souscategorie_id;
-        $prod->qte_stock       = $request->qte_stock;
-        $prod->type       = $request->type;
-        $prod->description   = $request->description;
-        $prod->slug   = Str::slug("$request->token". Hash::make($request->libelle),"-");
+        $prod                      = new Produit ;
+        $prod->libelle             = $request->libelle;
+        $prod->prix                = $request->prix;
+        $prod->souscategorie_id    = $request->souscategorie_id;
+        $prod->qte_stock          = $request->qte_stock;
+        $prod->type              = $request->type;
+        $prod->taille              = $request->taille;
+        $prod->couleur              = $request->couleur;
+        $prod->description       = $request->description;
+        $prod->slug              = Str::slug("$request->token". Hash::make($request->libelle),"-");
         if (request()->file('photo1')) {
             $img = request()->file('photo1');
                 $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
