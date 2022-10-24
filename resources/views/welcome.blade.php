@@ -320,11 +320,11 @@
 									</li>
 							</ul>
 							
-                                <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="add" value="1">
-                                        <input type="hidden" name="transmitv_item" value="{{$product->libelle}}">
-                                        <input type="hidden" name="amount" value="{{$product->prix}}">
+                                <form action="{{ route('AddCart')}}" method="post">
+                                    @csrf
+                                    @method('post')
+                                        <input type="hidden" name="id" value="{{$product->id}}">
+                                        <input type="hidden" name="qte" value="1">
                                         <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
                                             Add to Cart
                                         </button>

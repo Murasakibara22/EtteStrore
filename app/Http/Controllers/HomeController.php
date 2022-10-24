@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Produit;
 use App\Models\Categorie;
+use Darryldecode\Cart\Cart;
 use Illuminate\Http\Request;
 use App\Models\SousCategorie;
 
@@ -24,6 +25,23 @@ class HomeController extends Controller
 
         return view('index');
     }
+
+
+    function ajout(Request $request)
+        {
+            // $userID = Auth()->user()->id ;
+
+            // $produit = Produit::find($request->id);
+
+            // if($userID)
+            // {
+            //     $test =  Cart::add($produit->id, $produit->libelle, $produit->prix)->associate(Produit::class);
+            // }
+            
+            // dd($test);
+
+            
+        }
 
     function prod(){
         $prod = Produit::paginate(3);

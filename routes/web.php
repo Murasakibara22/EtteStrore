@@ -26,6 +26,8 @@ Route::get('/', [HomeController::class , 'index']);
 
 Route::get('/index', [HomeController::class , 'index2']);
 
+Route::post('/addCart', [HomeController::class , 'ajout'])->name('AddCart');
+
 Route::get('/product', [HomeController::class , 'prod']);
 
 Route::get('/pro/{slug}', [HomeController::class , 'shop']);
