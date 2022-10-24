@@ -294,21 +294,17 @@
 	</div>
 </section>
 <!-- //video-6-->
+
 <section class="w3l-ecommerce-main">
 	<!-- /products-->
     @foreach($souscat as $souscats)
-	<div class="ecom-contenthny py-5">
-		<div class="container py-lg-5">
+	<div class="ecom-contenthny py-1">
+		<div class="container py-lg-3">
 			<h3 class="hny-title mb-0 text-center">{{$souscats->libelle}}</h3>
 			<p class="text-center"></p>
 			<!-- /row-->
             
 			<div class="ecom-products-grids row mt-lg-5 mt-3">
-            @if(is_null($souscats->prod()))
-
-            <div class="col-lg-3 col-6 product-incfhny mt-4">Nothing </div>
-
-            @else
             @foreach($souscats->prod() as $product)
 				<div class="col-lg-3 col-6 product-incfhny mt-4">
 					<div class="product-grid2 transmitv">
@@ -342,7 +338,7 @@
 					</div>
 				</div>
             @endforeach
-            @endif
+       
 
 			</div>
 			<!-- //row-->

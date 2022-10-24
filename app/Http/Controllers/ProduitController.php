@@ -44,7 +44,11 @@ class ProduitController extends Controller
         }else{
            $prod->taille               = 'Aucune';
         }
-        $prod->couleur              = $request->couleur;
+        if($request->couleur){
+            $prod->couleur             = $request->couleur;
+         }else{
+            $prod->couleur             = 'Non Specifier';
+         }
         $prod->description       = $request->description;
         $prod->slug              = Str::slug("$request->token". Hash::make($request->libelle),"-");
         if (request()->file('photo1')) {
@@ -118,9 +122,21 @@ class ProduitController extends Controller
             $produit->prix                   = $request->prix;
             $produit->souscategorie_id       = $request->souscategorie_id;
             $produit->qte_stock               = $request->qte_stock;
-            $produit->type                   = $request->type;
-            $prod->taille              = $request->taille;
-            $prod->couleur              = $request->couleur;
+            if($request->type){
+                $produit->type              = $request->type;
+            }else{
+                $produit->type              = 'Autre';
+            }
+            if($request->taille){
+               $produit->taille               = $request->taille;
+            }else{
+               $produit->taille               = 'Aucune';
+            }
+            if($request->couleur){
+                $produit->couleur             = $request->couleur;
+             }else{
+                $produit->couleur             = 'Non Specifier';
+             }
             $produit->description            = $request->description;
             $produit->slug                    = Str::slug("$request->token". Hash::make($request->libelle),"-");
             if (request()->file('photo1')) {
