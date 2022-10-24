@@ -20,6 +20,11 @@ class HomeController extends Controller
         return view('welcome', compact('produit','categorie','souscat'));
     }
 
+    function index2(){
+
+        return view('index');
+    }
+
     function prod(){
         $prod = Produit::paginate(3);
         $produit = Produit::query()

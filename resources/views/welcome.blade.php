@@ -319,17 +319,17 @@
 									<li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
 									</li>
 							</ul>
-							<div class="transmitv single-item">
-							<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1">
-									<input type="hidden" name="transmitv_item" value="Women Maroon Top">
-									<input type="hidden" name="amount" value="899.99">
-									<button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-										Add to Cart
-									</button>
-								</form>
-							</div>
+							
+                                <form action="#" method="post">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="transmitv_item" value="{{$product->libelle}}">
+                                        <input type="hidden" name="amount" value="{{$product->prix}}">
+                                        <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
+                                            Add to Cart
+                                        </button>
+                                    </form>
+							
 						</div>
 						<div class="product-content">
 							<h3 class="title"><a href="#">{{$product->libelle}} </a></h3>

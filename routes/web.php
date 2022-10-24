@@ -24,6 +24,8 @@ use App\Http\Controllers\PartenaireController;
 
 Route::get('/', [HomeController::class , 'index']);
 
+Route::get('/index', [HomeController::class , 'index2']);
+
 Route::get('/product', [HomeController::class , 'prod']);
 
 Route::get('/pro/{slug}', [HomeController::class , 'shop']);
