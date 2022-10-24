@@ -32,6 +32,10 @@
                       <input type="text" name="type" class="form-control" id="exampleInputEmail3" placeholder="Genre">
                     </div>
                     <div class="form-group">
+                      <label for="exampleInputEmail3">couleur</label>
+                      <input type="text" name="couleur" class="form-control" id="exampleInputEmail3" placeholder="Couleur">
+                    </div>
+                    <div class="form-group">
                       <label for="exampleInputPassword4">prix</label>
                       <input type="text" name="prix" class="form-control" id="exampleInputPassword4" placeholder="prix">
                     </div>
@@ -44,13 +48,23 @@
                         </select>
                       </div>
 
+                    <div class="form-group" name="taille">
+                      <label for="exampleSelectGender">taille</label>
+                        <select class="form-control" id="exampleSelectGender" name="taille">
+                          <option value="L" name="taille">L</option>
+                          <option value="S" name="taille">S</option>
+                          <option value="XL" name="taille">XL</option>
+                          <option value="XXL" name="taille">XXL</option>
+                          <option value="Aucune" name="taille">Aucune</option>
+                        </select>
+                      </div>
 
                       <input type="file" id="real-file" hidden="hidden" name="photo1" />
                             <button type="button" id="custom-button" name="photo1">choisir</button>
                             <span id="custom-text"> ajouter la photo du premier produit</span> </br></br>
 
                             <div class="form-group">
-                      <label>File upload</label>
+                 
                       <input type="file" name="photo2" >
                     </div> </br></br>
 

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProduitController;
@@ -20,11 +21,12 @@ use App\Http\Controllers\PartenaireController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/', [HomeController::class , 'index']);
 
+Route::get('/product', [HomeController::class , 'prod']);
+
+Route::get('/pro/{slug}', [HomeController::class , 'shop']);
 
 Route::middleware(['auth', 'role:admin'])->group(function(){
     Route::get('/dashboard',[AdminController::class , 'index'])->middleware(['auth'])->name('dashboard');

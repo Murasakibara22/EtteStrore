@@ -12,26 +12,26 @@
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/icons/site.html">
-    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="MyAssets/assets/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="MyAssets/assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="MyAssets/assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="MyAssets/assets/images/icons/site.html">
+    <link rel="mask-icon" href="MyAssets/assets/images/icons/safari-pinned-tab.svg" color="#666666">
+    <link rel="shortcut icon" href="MyAssets/assets/images/icons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Molla">
     <meta name="application-name" content="Molla">
     <meta name="msapplication-TileColor" content="#cc9966">
-    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+    <meta name="msapplication-config" content="MyAssets/assets/images/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- Plugins CSS File -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/plugins/magnific-popup/magnific-popup.css">
     <!-- Main CSS File -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/plugins/nouislider/nouislider.css">
-    <link rel="stylesheet" href="assets/css/skins/skin-demo-13.css">
-    <link rel="stylesheet" href="assets/css/demos/demo-13.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/style.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/plugins/nouislider/nouislider.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/skins/skin-demo-13.css">
+    <link rel="stylesheet" href="MyAssets/assets/css/demos/demo-13.css">
 </head>
 
 <body>
@@ -93,7 +93,7 @@
                         </button>
                         
                         <a href="index.html" class="logo">
-                            <img src="assets/images/demos/demo-13/logo.png" alt="Molla Logo" width="110" height="25">
+                            <img src="MyAssets/assets/images/demos/demo-13/logo.png" alt="Molla Logo" width="110" height="25">
                         </a>
                     </div><!-- End .header-left -->
 
@@ -179,7 +179,7 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="assets/images/products/cart/product-1.jpg" alt="product">
+                                                <img src="MyAssets/assets/images/products/cart/product-1.jpg" alt="product">
                                             </a>
                                         </figure>
                                         <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
@@ -199,7 +199,7 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="assets/images/products/cart/product-2.jpg" alt="product">
+                                                <img src="MyAssets/assets/images/products/cart/product-2.jpg" alt="product">
                                             </a>
                                         </figure>
                                         <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
@@ -244,15 +244,7 @@
                                                                 <div class="row">
                                                                     <div class="col-md-6">
                                                                         <div class="menu-title">Laptops & Computers</div><!-- End .menu-title -->
-                                                                        <ul>
-                                                                            <li><a href="#">Desktop Computers</a></li>
-                                                                            <li><a href="#">Monitors</a></li>
-                                                                            <li><a href="#">Laptops</a></li>
-                                                                            <li><a href="#">iPad & Tablets</a></li>
-                                                                            <li><a href="#">Hard Drives & Storage</a></li>
-                                                                            <li><a href="#">Printers & Supplies</a></li>
-                                                                            <li><a href="#">Computer Accessories</a></li>
-                                                                        </ul>
+                                                                     
 
                                                                         <div class="menu-title">TV & Video</div><!-- End .menu-title -->
                                                                         <ul>
@@ -290,7 +282,7 @@
                                                         <div class="col-md-4">
                                                             <div class="banner banner-overlay">
                                                                 <a href="category.html" class="banner banner-menu">
-                                                                    <img src="assets/images/demos/demo-13/menu/banner-1.jpg" alt="Banner">
+                                                                    <img src="MyAssets/assets/images/demos/demo-13/menu/banner-1.jpg" alt="Banner">
                                                                 </a>
                                                             </div><!-- End .banner banner-overlay -->
                                                         </div><!-- End .col-md-4 -->
@@ -352,7 +344,7 @@
                                                         <div class="col-md-4">
                                                             <div class="banner banner-overlay">
                                                                 <a href="category.html" class="banner banner-menu">
-                                                                    <img src="assets/images/demos/demo-13/menu/banner-2.jpg" alt="Banner">
+                                                                    <img src="MyAssets/assets/images/demos/demo-13/menu/banner-2.jpg" alt="Banner">
                                                                 </a>
                                                             </div><!-- End .banner banner-overlay -->
                                                         </div><!-- End .col-md-4 -->
@@ -405,7 +397,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="banner">
                                                                     <a href="#">
-                                                                        <img src="assets/images/demos/demo-13/menu/1.jpg" alt="image">
+                                                                        <img src="MyAssets/assets/images/demos/demo-13/menu/1.jpg" alt="image">
                                                                     </a>
                                                                 </div><!-- End .banner -->
                                                             </div><!-- End .col-md-4 -->
@@ -413,7 +405,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="banner">
                                                                     <a href="#">
-                                                                        <img src="assets/images/demos/demo-13/menu/2.jpg" alt="image">
+                                                                        <img src="MyAssets/assets/images/demos/demo-13/menu/2.jpg" alt="image">
                                                                     </a>
                                                                 </div><!-- End .banner -->
                                                             </div><!-- End .col-md-4 -->
@@ -421,7 +413,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="banner">
                                                                     <a href="#">
-                                                                        <img src="assets/images/demos/demo-13/menu/3.jpg" alt="image">
+                                                                        <img src="MyAssets/assets/images/demos/demo-13/menu/3.jpg" alt="image">
                                                                     </a>
                                                                 </div><!-- End .banner -->
                                                             </div><!-- End .col-md-4 -->
@@ -472,7 +464,7 @@
                                                         <div class="col-md-4">
                                                             <div class="banner banner-overlay">
                                                                 <a href="category.html" class="banner banner-menu">
-                                                                    <img src="assets/images/demos/demo-13/menu/banner-3.jpg" alt="Banner">
+                                                                    <img src="MyAssets/assets/images/demos/demo-13/menu/banner-3.jpg" alt="Banner">
                                                                 </a>
                                                             </div><!-- End .banner banner-overlay -->
                                                         </div><!-- End .col-md-4 -->
@@ -482,50 +474,43 @@
                                                         <div class="row">
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/1.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/1.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
 
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/2.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/2.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
 
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/3.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/3.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
 
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/4.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/4.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
 
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/5.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/5.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
 
                                                             <div class="col-lg-2">
                                                                 <a href="#" class="brand">
-                                                                    <img src="assets/images/brands/6.png" alt="Brand Name">
+                                                                    <img src="MyAssets/assets/images/brands/6.png" alt="Brand Name">
                                                                 </a>
                                                             </div><!-- End .col-lg-2 -->
                                                         </div><!-- End .row -->
                                                     </div><!-- End .menu-brands -->
                                                 </div><!-- End .megamenu -->
                                             </li>
-                                            <li><a href="#">Home Appliances</a></li>
-                                            <li><a href="#">Healthy & Beauty</a></li>
-                                            <li><a href="#">Shoes & Boots</a></li>
-                                            <li><a href="#">Travel & Outdoor</a></li>
-                                            <li><a href="#">Smart Phones</a></li>
-                                            <li><a href="#">TV & Audio</a></li>
-                                            <li><a href="#">Gift Ideas</a></li>
                                         </ul><!-- End .menu-vertical -->
                                     </nav><!-- End .side-nav -->
                                 </div><!-- End .dropdown-menu -->
@@ -545,168 +530,168 @@
                                             <div class="demo-list">
                                                 <div class="demo-item">
                                                     <a href="index-1.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/1.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/1.jpg);"></span>
                                                         <span class="demo-title">01 - furniture store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-2.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/2.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/2.jpg);"></span>
                                                         <span class="demo-title">02 - furniture store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-3.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/3.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/3.jpg);"></span>
                                                         <span class="demo-title">03 - electronic store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-4.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/4.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/4.jpg);"></span>
                                                         <span class="demo-title">04 - electronic store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-5.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/5.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/5.jpg);"></span>
                                                         <span class="demo-title">05 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-6.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/6.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/6.jpg);"></span>
                                                         <span class="demo-title">06 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-7.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/7.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/7.jpg);"></span>
                                                         <span class="demo-title">07 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-8.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/8.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/8.jpg);"></span>
                                                         <span class="demo-title">08 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-9.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/9.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/9.jpg);"></span>
                                                         <span class="demo-title">09 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item">
                                                     <a href="index-10.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/10.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/10.jpg);"></span>
                                                         <span class="demo-title">10 - shoes store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-11.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/11.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/11.jpg);"></span>
                                                         <span class="demo-title">11 - furniture simple store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-12.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/12.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/12.jpg);"></span>
                                                         <span class="demo-title">12 - fashion simple store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-13.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/13.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/13.jpg);"></span>
                                                         <span class="demo-title">13 - market</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-14.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/14.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/14.jpg);"></span>
                                                         <span class="demo-title">14 - market fullwidth</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-15.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/15.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/15.jpg);"></span>
                                                         <span class="demo-title">15 - lookbook 1</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-16.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/16.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/16.jpg);"></span>
                                                         <span class="demo-title">16 - lookbook 2</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-17.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/17.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/17.jpg);"></span>
                                                         <span class="demo-title">17 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-18.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/18.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/18.jpg);"></span>
                                                         <span class="demo-title">18 - fashion store (with sidebar)</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-19.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/19.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/19.jpg);"></span>
                                                         <span class="demo-title">19 - games store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-20.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/20.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/20.jpg);"></span>
                                                         <span class="demo-title">20 - book store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-21.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/21.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/21.jpg);"></span>
                                                         <span class="demo-title">21 - sport store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-22.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/22.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/22.jpg);"></span>
                                                         <span class="demo-title">22 - tools store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-23.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/23.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/23.jpg);"></span>
                                                         <span class="demo-title">23 - fashion left navigation store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
                                                     <a href="index-24.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/24.jpg);"></span>
+                                                        <span class="demo-bg" style="background-image: url(MyAssets/assets/images/menu/demos/24.jpg);"></span>
                                                         <span class="demo-title">24 - extreme sport store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -766,7 +751,7 @@
                                             <div class="col-md-4">
                                                 <div class="banner banner-overlay">
                                                     <a href="category.html" class="banner banner-menu">
-                                                        <img src="assets/images/menu/banner-1.jpg" alt="Banner">
+                                                        <img src="MyAssets/assets/images/menu/banner-1.jpg" alt="Banner">
 
                                                         <div class="banner-content banner-content-top">
                                                             <div class="banner-title text-white">Last <br>Chance<br><span><strong>Sale</strong></span></div><!-- End .banner-title -->
@@ -801,7 +786,7 @@
                                                 <div class="col-md-6">
                                                     <div class="banner banner-overlay">
                                                         <a href="category.html">
-                                                            <img src="assets/images/menu/banner-2.jpg" alt="Banner">
+                                                            <img src="MyAssets/assets/images/menu/banner-2.jpg" alt="Banner">
 
                                                             <div class="banner-content banner-content-bottom">
                                                                 <div class="banner-title text-white">New Trends<br><span><strong>spring 2019</strong></span></div><!-- End .banner-title -->
@@ -934,7 +919,7 @@
                                 <div class="banner banner-poster">
                                     
                                     <a href="#">
-                                        <img src="assets/images/demos/demo-13/banners/banner-7.jpg" alt="Banner">
+                                        <img src="MyAssets/assets/images/demos/demo-13/banners/banner-7.jpg" alt="Banner">
                                     </a>
 
                                     <div class="banner-content banner-content-right">
@@ -946,7 +931,7 @@
 
                                 <div class="banner banner-poster">
                                     <a href="#">
-                                        <img src="assets/images/demos/demo-13/banners/banner-8.jpg" alt="Banner">
+                                        <img src="MyAssets/assets/images/demos/demo-13/banners/banner-8.jpg" alt="Banner">
                                     </a>
 
                                     <div class="banner-content">
@@ -986,31 +971,31 @@
                                     }
                                 }'>
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/2.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/2.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/3.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/3.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/4.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/4.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/5.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/5.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/6.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/6.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/1.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/1.png" alt="Brand Name">
                                 </a>
 
                                 <a href="#" class="brand">
-                                    <img src="assets/images/brands/2.png" alt="Brand Name">
+                                    <img src="MyAssets/assets/images/brands/2.png" alt="Brand Name">
                                 </a>
                             </div><!-- End .owl-carousel -->
 
@@ -1018,89 +1003,19 @@
 
                             <div class="cat-blocks-container">
                                 <div class="row">
+                                    @foreach($souscat as $souscats)
                                     <div class="col-6 col-md-4 col-lg-3">
                                         <a href="category.html" class="cat-block">
                                             <figure>
                                                 <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/1.jpg" alt="Category image">
+                                                    <img src="../images/Produit/" alt="Category image">
                                                 </span>
                                             </figure>
 
-                                            <h3 class="cat-block-title">Desktop Computers</h3><!-- End .cat-block-title -->
+                                            <h3 class="cat-block-title">{{$souscats->libelle}}</h3><!-- End .cat-block-title -->
                                         </a>
                                     </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/2.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">Monitors</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/3.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">Laptops</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/4.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">iPads & Tablets</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/5.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">Hard Drives & Storage</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/6.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">Printers & Supplies</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
-
-                                    <div class="col-6 col-md-4 col-lg-3">
-                                        <a href="category.html" class="cat-block">
-                                            <figure>
-                                                <span>
-                                                    <img src="assets/images/demos/demo-13/cats/cat-page/7.jpg" alt="Category image">
-                                                </span>
-                                            </figure>
-
-                                            <h3 class="cat-block-title">Computer Accessories</h3><!-- End .cat-block-title -->
-                                        </a>
-                                    </div><!-- End .col-6 col-md-4 col-lg-3 -->
+                                    @endforeach
                                 </div><!-- End .row -->
                             </div><!-- End .cat-blocks-container -->
 
@@ -1129,16 +1044,16 @@
                                         }
                                     }
                                 }'>
+                                @foreach($produit as $produits)
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-top">Top</span>
                                         <a href="product.html">
-                                            <img src="assets/images/demos/demo-13/products/product-7.jpg" alt="Product image" class="product-image">
+                                            <img src="../images/Produit/{{$produits->photo1}}" alt="Product image" class="product-image">
                                         </a>
 
                                         <div class="product-action-vertical">
                                             <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                            <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
                                             <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
                                         </div><!-- End .product-action-vertical -->
 
@@ -1149,11 +1064,11 @@
 
                                     <div class="product-body">
                                         <div class="product-cat">
-                                            <a href="#">Laptops</a>
+                                            <a href="#"></a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product.html">{{$produits->libelle}}</a></h3><!-- End .product-title -->
                                         <div class="product-price">
-                                            $1,199.00
+                                           {{$produits->prix}} FCFA
                                         </div><!-- End .product-price -->
                                         <div class="ratings-container">
                                             <div class="ratings">
@@ -1163,153 +1078,7 @@
                                         </div><!-- End .rating-container -->
                                     </div><!-- End .product-body -->
                                 </div><!-- End .product -->
-
-                                <div class="product">
-                                    <figure class="product-media">
-                                        <a href="product.html">
-                                            <img src="assets/images/demos/demo-13/products/product-8.jpg" alt="Product image" class="product-image">
-                                        </a>
-
-                                        <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                            <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                            <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                        </div><!-- End .product-action-vertical -->
-
-                                        <div class="product-action">
-                                            <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                        </div><!-- End .product-action -->
-                                    </figure><!-- End .product-media -->
-
-                                    <div class="product-body">
-                                        <div class="product-cat">
-                                            <a href="#">Audio</a>
-                                        </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Bose - SoundLink Bluetooth Speaker</a></h3><!-- End .product-title -->
-                                        <div class="product-price">
-                                            $79.99
-                                        </div><!-- End .product-price -->
-                                        <div class="ratings-container">
-                                            <div class="ratings">
-                                                <div class="ratings-val" style="width: 60%;"></div><!-- End .ratings-val -->
-                                            </div><!-- End .ratings -->
-                                            <span class="ratings-text">( 6 Reviews )</span>
-                                        </div><!-- End .rating-container -->
-                                    </div><!-- End .product-body -->
-                                </div><!-- End .product -->
-
-                                <div class="product">
-                                    <figure class="product-media">
-                                        <span class="product-label label-new">New</span>
-                                        <a href="product.html">
-                                            <img src="assets/images/demos/demo-13/products/product-9.jpg" alt="Product image" class="product-image">
-                                        </a>
-
-                                        <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                            <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                            <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                        </div><!-- End .product-action-vertical -->
-
-                                        <div class="product-action">
-                                            <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                        </div><!-- End .product-action -->
-                                    </figure><!-- End .product-media -->
-
-                                    <div class="product-body">
-                                        <div class="product-cat">
-                                            <a href="#">Tablets</a>
-                                        </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Apple - 11 Inch iPad Pro  with Wi-Fi 256GB </a></h3><!-- End .product-title -->
-                                        <div class="product-price">
-                                            $899.99
-                                        </div><!-- End .product-price -->
-                                        <div class="ratings-container">
-                                            <div class="ratings">
-                                                <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                            </div><!-- End .ratings -->
-                                            <span class="ratings-text">( 4 Reviews )</span>
-                                        </div><!-- End .rating-container -->
-
-                                        <div class="product-nav product-nav-dots">
-                                            <a href="#" class="active" style="background: #edd2c8;"><span class="sr-only">Color name</span></a>
-                                            <a href="#" style="background: #eaeaec;"><span class="sr-only">Color name</span></a>
-                                            <a href="#" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                        </div><!-- End .product-nav -->
-                                    </div><!-- End .product-body -->
-                                </div><!-- End .product -->
-
-                                <div class="product">
-                                    <figure class="product-media">
-                                        <span class="product-label label-sale">Sale</span>
-                                        <a href="product.html">
-                                            <img src="assets/images/demos/demo-13/products/product-10.jpg" alt="Product image" class="product-image">
-                                        </a>
-
-                                        <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                            <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                            <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                        </div><!-- End .product-action-vertical -->
-
-                                        <div class="product-action">
-                                            <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                        </div><!-- End .product-action -->
-                                    </figure><!-- End .product-media -->
-
-                                    <div class="product-body">
-                                        <div class="product-cat">
-                                            <a href="#">Cell Phone</a>
-                                        </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Google - Pixel 3 XL 128GB</a></h3><!-- End .product-title -->
-                                        <div class="product-price">
-                                            $899.99
-                                            <span class="new-price">$350.00</span>
-                                            <span class="old-price">Was $410.00</span>
-                                        </div><!-- End .product-price -->
-                                        <div class="ratings-container">
-                                            <div class="ratings">
-                                                <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                            </div><!-- End .ratings -->
-                                            <span class="ratings-text">( 10 Reviews )</span>
-                                        </div><!-- End .rating-container -->
-                                    </div><!-- End .product-body -->
-                                </div><!-- End .product -->
-
-                                <div class="product">
-                                    <figure class="product-media">
-                                        <span class="product-label label-new">New</span>
-                                        <a href="product.html">
-                                            <img src="assets/images/demos/demo-13/products/product-6.jpg" alt="Product image" class="product-image">
-                                        </a>
-
-                                        <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                            <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                            <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                        </div><!-- End .product-action-vertical -->
-
-                                        <div class="product-action">
-                                            <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                        </div><!-- End .product-action -->
-                                    </figure><!-- End .product-media -->
-
-                                    <div class="product-body">
-                                        <div class="product-cat">
-                                            <a href="#">Appliances</a>
-                                        </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Neato Robotics</a></h3><!-- End .product-title -->
-                                        <div class="product-price">
-                                            $399.00
-                                        </div><!-- End .product-price -->
-                                        <div class="ratings-container">
-                                            <div class="ratings">
-                                                <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                            </div><!-- End .ratings -->
-                                            <span class="ratings-text">( 12 Reviews )</span>
-                                        </div><!-- End .rating-container -->
-                                    </div><!-- End .product-body -->
-                                </div><!-- End .product -->
+                                @endforeach
                             </div><!-- End .owl-carousel -->
 
                             <div class="mb-4"></div><!-- End .mb-4 -->
@@ -1337,18 +1106,17 @@
 
                             <div class="products mb-3">
                                 <div class="row">
+                                @foreach($produit as $produits)
                                     <div class="col-6 col-md-4 col-xl-3">
                                         <div class="product">
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-6.jpg" alt="Product image" class="product-image">
+                                                <a href="/pro/{{$produits->slug}}">
+                                                    <img src="../images/Produit/{{$produits->photo1}}" alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
                                                     <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
                                                 </div><!-- End .product-action-vertical -->
 
                                                 <div class="product-action">
@@ -1360,319 +1128,25 @@
                                                 <div class="product-cat">
                                                     <a href="#">Appliances</a>
                                                 </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Neato Robotics</a></h3><!-- End .product-title -->
+                                                <h3 class="product-title"><a href="product.html">{{$produits->libelle}}</a></h3><!-- End .product-title -->
                                                 <div class="product-price">
-                                                    $399.00
+                                                {{$produits->prix}} FCFA
                                                 </div><!-- End .product-price -->
                                                 <div class="ratings-container">
                                                     <div class="ratings">
                                                         <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
                                                     </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 12 Reviews )</span>
+                                                    <span class="ratings-text"></span>
                                                 </div><!-- End .rating-container -->
                                             </div><!-- End .product-body -->
                                         </div><!-- End .product -->
                                     </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <span class="product-label label-top">Top</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-7.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Laptops</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $1,199.00
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 4 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-8.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Audio</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Bose - SoundLink Bluetooth Speaker</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $79.99
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 60%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 6 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <span class="product-label label-new">New</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-9.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Tablets</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Apple - 11 Inch iPad Pro  with Wi-Fi 256GB </a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $899.99
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 4 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-
-                                                <div class="product-nav product-nav-dots">
-                                                    <a href="#" class="active" style="background: #edd2c8;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #eaeaec;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                                </div><!-- End .product-nav -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <span class="product-label label-sale">Sale</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-10.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Cell Phone</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Google - Pixel 3 XL 128GB</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $899.99
-                                                    <span class="new-price">$350.00</span>
-                                                    <span class="old-price">Was $410.00</span>
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 10 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-
-                                                <div class="product-nav product-nav-dots">
-                                                    <a href="#" class="active" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #eaeaec;"><span class="sr-only">Color name</span></a>
-                                                </div><!-- End .product-nav -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <span class="product-label label-new">New</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-11.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Tables</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Block Side Table/Trolley</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $229.00
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 12 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-
-                                                <div class="product-nav product-nav-dots">
-                                                    <a href="#" class="active" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #e2e2e2;"><span class="sr-only">Color name</span></a>
-                                                </div><!-- End .product-nav -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-12.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Sofas</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Roots Sofa Bed</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    $1,199.99
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 4 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
-
-                                    <div class="col-6 col-md-4 col-xl-3">
-                                        <div class="product">
-                                            <figure class="product-media">
-                                                <span class="product-label label-sale">Sale</span>
-                                                <a href="product.html">
-                                                    <img src="assets/images/demos/demo-13/products/product-13.jpg" alt="Product image" class="product-image">
-                                                </a>
-
-                                                <div class="product-action-vertical">
-                                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
-                                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
-                                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                                </div><!-- End .product-action-vertical -->
-
-                                                <div class="product-action">
-                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add to cart</span></a>
-                                                </div><!-- End .product-action -->
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <div class="product-cat">
-                                                    <a href="#">Lighting</a>
-                                                </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Carronade Large Suspension Lamp</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    <span class="new-price">$892.00</span>
-                                                    <span class="old-price">Was $939.00</span>
-                                                </div><!-- End .product-price -->
-                                                <div class="ratings-container">
-                                                    <div class="ratings">
-                                                        <div class="ratings-val" style="width: 60%;"></div><!-- End .ratings-val -->
-                                                    </div><!-- End .ratings -->
-                                                    <span class="ratings-text">( 6 Reviews )</span>
-                                                </div><!-- End .rating-container -->
-
-                                                <div class="product-nav product-nav-dots">
-                                                    <a href="#" class="active" style="background: #dddad5;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #825a45;"><span class="sr-only">Color name</span></a>
-                                                </div><!-- End .product-nav -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-                                    </div><!-- End .col-sm-6 col-md-4 col-xl-3 -->
+                                @endforeach
                                 </div><!-- End .row -->
                             </div><!-- End .products -->
 
                             <nav aria-label="Page navigation">
-                                <ul class="pagination">
-                                    <li class="page-item disabled">
-                                        <a class="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
-                                            <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>Prev
-                                        </a>
-                                    </li>
-                                    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item-total">of 2</li>
-                                    <li class="page-item">
-                                        <a class="page-link page-link-next" href="#" aria-label="Next">
-                                            Next <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
-                                        </a>
-                                    </li>
-                                </ul>
+                                {{$prod->links()}}
                             </nav>
                         </div><!-- End .col-lg-9 -->
 
@@ -1774,212 +1248,16 @@
                                     </div><!-- End .widget-body -->
                                 </div><!-- End .widget -->
 
-                                <div class="widget">
-                                    <h3 class="widget-title">Brands</h3><!-- End .widget-title -->
+                         
 
-                                    <div class="widget-body">
-                                        <div class="filter-items">
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-1">
-                                                    <label class="custom-control-label" for="brand-1">Next</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-2">
-                                                    <label class="custom-control-label" for="brand-2">River Island</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-3">
-                                                    <label class="custom-control-label" for="brand-3">Geox</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-4">
-                                                    <label class="custom-control-label" for="brand-4">New Balance</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-5">
-                                                    <label class="custom-control-label" for="brand-5">UGG</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-6">
-                                                    <label class="custom-control-label" for="brand-6">F&F</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brand-7">
-                                                    <label class="custom-control-label" for="brand-7">Nike</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                        </div><!-- End .filter-items -->
-                                    </div><!-- End .widget-body -->
-                                </div><!-- End .widget -->
+                     
 
                                 <div class="widget">
-                                    <h3 class="widget-title">Price</h3><!-- End .widget-title -->
-
-                                    <div class="widget-body">
-                                        <div class="filter-items">
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" class="custom-control-input" id="price-1" name="filter-price">
-                                                    <label class="custom-control-label" for="price-1">Under $25</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" class="custom-control-input" id="price-2" name="filter-price">
-                                                    <label class="custom-control-label" for="price-2">$25 to $50</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" class="custom-control-input" id="price-3" name="filter-price">
-                                                    <label class="custom-control-label" for="price-3">$50 to $100</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" class="custom-control-input" id="price-4" name="filter-price">
-                                                    <label class="custom-control-label" for="price-4">$100 to $200</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" class="custom-control-input" id="price-5" name="filter-price">
-                                                    <label class="custom-control-label" for="price-5">$200 & Above</label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-                                        </div><!-- End .filter-items -->
-                                    </div><!-- End .widget-body -->
+                                
                                 </div><!-- End .widget -->
 
-                                <div class="widget">
-                                    <h3 class="widget-title">Customer Rating</h3><!-- End .widget-title -->
+                            
 
-                                    <div class="widget-body">
-                                        <div class="filter-items">
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cus-rating-1">
-                                                    <label class="custom-control-label" for="cus-rating-1">
-                                                        <span class="ratings-container">
-                                                            <span class="ratings">
-                                                                <span class="ratings-val" style="width: 100%;"></span><!-- End .ratings-val -->
-                                                            </span><!-- End .ratings -->
-                                                            <span class="ratings-text">( 24 )</span>
-                                                        </span><!-- End .rating-container -->
-                                                    </label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cus-rating-2">
-                                                    <label class="custom-control-label" for="cus-rating-2">
-                                                        <span class="ratings-container">
-                                                            <span class="ratings">
-                                                                <span class="ratings-val" style="width: 80%;"></span><!-- End .ratings-val -->
-                                                            </span><!-- End .ratings -->
-                                                            <span class="ratings-text">( 8 )</span>
-                                                        </span><!-- End .rating-container -->
-                                                    </label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cus-rating-3">
-                                                    <label class="custom-control-label" for="cus-rating-3">
-                                                        <span class="ratings-container">
-                                                            <span class="ratings">
-                                                                <span class="ratings-val" style="width: 60%;"></span><!-- End .ratings-val -->
-                                                            </span><!-- End .ratings -->
-                                                            <span class="ratings-text">( 5 )</span>
-                                                        </span><!-- End .rating-container -->
-                                                    </label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cus-rating-4">
-                                                    <label class="custom-control-label" for="cus-rating-4">
-                                                        <span class="ratings-container">
-                                                            <span class="ratings">
-                                                                <span class="ratings-val" style="width: 40%;"></span><!-- End .ratings-val -->
-                                                            </span><!-- End .ratings -->
-                                                            <span class="ratings-text">( 1 )</span>
-                                                        </span><!-- End .rating-container -->
-                                                    </label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                            <div class="filter-item">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cus-rating-5">
-                                                    <label class="custom-control-label" for="cus-rating-5">
-                                                        <span class="ratings-container">
-                                                            <span class="ratings">
-                                                                <span class="ratings-val" style="width: 20%;"></span><!-- End .ratings-val -->
-                                                            </span><!-- End .ratings -->
-                                                            <span class="ratings-text">( 3 )</span>
-                                                        </span><!-- End .rating-container -->
-                                                    </label>
-                                                </div><!-- End .custom-checkbox -->
-                                            </div><!-- End .filter-item -->
-
-                                        </div><!-- End .filter-items -->
-                                    </div><!-- End .widget-body -->
-                                </div><!-- End .widget -->
-
-                                <div class="widget">
-                                    <h3 class="widget-title">Colour</h3><!-- End .widget-title -->
-
-                                    <div class="widget-body">
-                                        <div class="filter-colors">
-                                            <a href="#" style="background: #b87145;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #f0c04a;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #333333;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" class="selected" style="background: #cc3333;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #3399cc;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #669933;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #f2719c;"><span class="sr-only">Color Name</span></a>
-                                            <a href="#" style="background: #ebebeb;"><span class="sr-only">Color Name</span></a>
-                                        </div><!-- End .filter-colors -->
-                                    </div><!-- End .widget-body -->
-                                </div><!-- End .widget -->
-
-                                <div class="widget widget-banner-sidebar">
-                                    <div class="banner-sidebar-title">ad banner 218 x 430px</div><!-- End .ad-title -->
-                                    
-                                    <div class="banner-sidebar banner-overlay">
-                                        <a href="#">
-                                            <img src="assets/images/demos/demo-13/banners/banner-6.jpg" alt="banner">
-                                        </a>
-                                    </div><!-- End .banner-ad -->
-                                </div><!-- End .widget -->
                             </div><!-- End .sidebar sidebar-shop -->
                         </aside><!-- End .col-lg-3 -->
                     </div><!-- End .row -->
@@ -2073,7 +1351,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-lg-6">
                             <div class="widget widget-about">
-                                <img src="assets/images/demos/demo-13/logo.png" class="footer-logo" alt="Footer Logo" width="110" height="25">
+                                <img src="MyAssets/assets/images/demos/demo-13/logo.png" class="footer-logo" alt="Footer Logo" width="110" height="25">
                                 <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
                                 
                                 <div class="widget-about-info">
@@ -2085,7 +1363,7 @@
                                         <div class="col-sm-6 col-md-8">
                                             <span class="widget-about-title">Payment Method</span>
                                             <figure class="footer-payments">
-                                                <img src="assets/images/payments.png" alt="Payment methods" width="272" height="20">
+                                                <img src="MyAssets/assets/images/payments.png" alt="Payment methods" width="272" height="20">
                                             </figure><!-- End .footer-payments -->
                                         </div><!-- End .col-sm-6 -->
                                     </div><!-- End .row -->
@@ -2478,16 +1756,16 @@
     </div><!-- End .modal -->
 
     <!-- Plugins JS File -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.hoverIntent.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/superfish.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/bootstrap-input-spinner.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="MyAssets/assets/js/jquery.min.js"></script>
+    <script src="MyAssets/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="MyAssets/assets/js/jquery.hoverIntent.min.js"></script>
+    <script src="MyAssets/assets/js/jquery.waypoints.min.js"></script>
+    <script src="MyAssets/assets/js/superfish.min.js"></script>
+    <script src="MyAssets/assets/js/owl.carousel.min.js"></script>
+    <script src="MyAssets/assets/js/bootstrap-input-spinner.js"></script>
+    <script src="MyAssets/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="MyAssets/assets/js/main.js"></script>
 </body>
 
 
