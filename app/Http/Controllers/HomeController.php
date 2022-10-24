@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Produit;
+use App\Models\Categorie;
 use Illuminate\Http\Request;
 use App\Models\SousCategorie;
 
@@ -11,7 +12,8 @@ class HomeController extends Controller
 
     function index(){
         $produit = Produit::all();
-        return view('welcome', compact('produit'));
+        $categorie = Categorie::OrderBy('id','DESC')->take(6)->get();
+        return view('welcome', compact('produit','categorie'));
     }
 
     function prod(){

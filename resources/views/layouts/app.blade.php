@@ -1,64 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html lang="zxx">
 
 <head>
-<meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Molla - Bootstrap eCommerce Template</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Molla - Bootstrap eCommerce Template">
-    <meta name="author" content="p-themes">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/icons/site.html">
-    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Molla">
-    <meta name="application-name" content="Molla">
-    <meta name="msapplication-TileColor" content="#cc9966">
-    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
-    <!-- Plugins CSS File -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/plugins/jquery.countdown.css">
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/skins/skin-demo-13.css">
-    <link rel="stylesheet" href="assets/css/demos/demo-13.css">
-</head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SpryStore E-commerce Category Bootstrap Responsive Website Template | Home :: W3layouts</title>
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="{{ asset('MyAssets/assets/css/style-starter.css') }}">
+  <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
 
+</head>
 <body>
 
-@include('partials.navbar')
 
 @yield('content')
 
 @include('partials.footer')
 
 
-<script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.hoverIntent.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/superfish.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/bootstrap-input-spinner.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.plugin.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/demos/demo-13.js"></script>
+
 </body>
 
-
-<!-- molla/index-13.html  22 Nov 2019 09:59:31 GMT -->
 </html>
+
+<script src="{{ asset('MyAssets/assets/js/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('MyAssets/assets/js/jquery-2.1.4.min.js') }}"></script>
+<!--/login-->
+<script>
+      $(document).ready(function () {
+          $(".button-log a").click(function () {
+              $(".overlay-login").fadeToggle(200);
+              $(this).toggleClass('btn-open').toggleClass('btn-close');
+          });
+      });
+      $('.overlay-close1').on('click', function () {
+          $(".overlay-login").fadeToggle(200);
+          $(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
+          open = false;
+      });
+</script>
+<!--//login-->
+<script>
+// optional
+      $('#customerhnyCarousel').carousel({
+              interval: 5000
+  });
+</script>
+<!-- cart-js -->
+<script src="{{ asset('MyAssets/assets/js/minicart.js') }}"></script>
+<script>
+   transmitv.render();
+
+   transmitv.cart.on('transmitv_checkout', function (evt) {
+       var items, len, i;
+
+       if (this.subtotal() > 0) {
+           items = this.items();
+
+           for (i = 0, len = items.length; i < len; i++) {}
+       }
+   });
+</script>
+<!-- //cart-js -->
+<!--pop-up-box-->
+<script src="{{ asset('MyAssets/assets/js/jquery.magnific-popup.js') }}"></script>
+<!--//pop-up-box-->
+<script>
+$(document).ready(function () {
+  $('.popup-with-zoom-anim').magnificPopup({
+    type: 'inline',
+    fixedContentPos: false,
+    fixedBgPos: true,
+    overflowY: 'auto',
+    closeBtnInside: true,
+    preloader: false,
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'my-mfp-zoom-in'
+  });
+
+});
+</script>
+<!--//search-bar-->
+<!-- disable body scroll which navbar is in active -->
+
+<script>
+$(function () {
+  $('.navbar-toggler').click(function () {
+    $('body').toggleClass('noscroll');
+  })
+});
+</script>
+<!-- disable body scroll which navbar is in active -->
+<script src="{{ asset('MyAssets/assets/js/bootstrap.min.js') }}"></script>
+

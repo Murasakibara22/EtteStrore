@@ -45,7 +45,7 @@ class ProduitController extends Controller
                 $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
-                InterventionImage::make($source)->fit(212,207)->save($target);
+                InterventionImage::make($source)->fit(215,271)->save($target);
                 $prod->photo1   =  $photo;
         }else{
             $prod->photo1   = "default.jpg";
@@ -55,7 +55,7 @@ class ProduitController extends Controller
                 $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
-                InterventionImage::make($source)->fit(212,207)->save($target);
+                InterventionImage::make($source)->fit(215,271)->save($target);
                 $prod->photo2   =  $photo;
         }else{
             $prod->photo2   = "default.jpg";
@@ -65,7 +65,7 @@ class ProduitController extends Controller
                 $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                 $source = $img;
                 $target = 'images/Produit/'.$photo;
-                InterventionImage::make($source)->fit(212,207)->save($target);
+                InterventionImage::make($source)->fit(215,271)->save($target);
                 $prod->photo3   =  $photo;
         }else{
             $prod->photo3   = "default.jpg";
@@ -121,7 +121,7 @@ class ProduitController extends Controller
                     $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                     $source = $img;
                     $target = 'images/Produit/'.$photo;
-                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    InterventionImage::make($source)->fit(215,271)->save($target);
                     $produit->photo1   =  $photo;
             }else{
                 $produit->photo1   = "default.jpg";
@@ -131,7 +131,7 @@ class ProduitController extends Controller
                     $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                     $source = $img;
                     $target = 'images/Produit/'.$photo;
-                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    InterventionImage::make($source)->fit(215,271)->save($target);
                     $produit->photo2   =  $photo;
             }else{
                 $produit->photo2   = "default.jpg";
@@ -141,7 +141,7 @@ class ProduitController extends Controller
                     $photo = md5($img->getClientOriginalExtension().time().$request->libelle).".".$img->getClientOriginalExtension();
                     $source = $img;
                     $target = 'images/Produit/'.$photo;
-                    InterventionImage::make($source)->fit(212,207)->save($target);
+                    InterventionImage::make($source)->fit(215,271)->save($target);
                     $produit->photo3   =  $photo;
             }else{
                 $produit->photo3   = "default.jpg";
