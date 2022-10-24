@@ -12,8 +12,12 @@ class HomeController extends Controller
 
     function index(){
         $produit = Produit::all();
+
         $categorie = Categorie::OrderBy('id','DESC')->take(6)->get();
-        return view('welcome', compact('produit','categorie'));
+
+        $souscat = SousCategorie::OrderBy('id','DESC')->take(4)->get();
+        
+        return view('welcome', compact('produit','categorie','souscat'));
     }
 
     function prod(){

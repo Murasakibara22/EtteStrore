@@ -25,7 +25,7 @@ class SousCategorie extends Model
     }
 
     public function prod() {
-        return $this->hasMany(Produit::class);
+        return $this->hasMany(Produit::class, 'souscategorie_id')->get();
     }
 
     public function delete()

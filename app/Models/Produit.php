@@ -36,3 +36,4 @@ class Produit extends Model
         return $this->belongsTo(SousCategorie::class, 'souscategorie_id');
     }
 }
+ 

@@ -21,7 +21,7 @@ class Categorie extends Model
     ];
 
     public function Souscat() {
-        return $this->hasMany(SousCategorie::class);
+        return $this->hasMany(SousCategorie::class,'categorie_id')->get();
     }
 
     public function delete()
