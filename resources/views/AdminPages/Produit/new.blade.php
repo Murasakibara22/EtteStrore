@@ -27,10 +27,14 @@
                       <label for="exampleInputName1">libelle</label>
                       <input type="text" name="libelle" class="form-control" id="exampleInputName1" placeholder="libelle">
                     </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail3">type</label>
-                      <input type="text" name="type" class="form-control" id="exampleInputEmail3" placeholder="Genre">
-                    </div>
+                    <div class="form-group" name="type">
+                      <label for="exampleSelectGender">Genre</label>
+                        <select class="form-control" id="exampleSelectGender" name="type">
+                          <option value="Homme" name="type">Homme</option>
+                          <option value="Femme" name="type">Femme</option>
+                          <option value="Autre" name="type">Autre</option>
+                        </select>
+                      </div>
                     <div class="form-group">
                       <label for="exampleInputEmail3">couleur</label>
                       <input type="text" name="couleur" class="form-control" id="exampleInputEmail3" placeholder="Couleur">

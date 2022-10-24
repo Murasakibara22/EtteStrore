@@ -27,7 +27,6 @@ class ProduitController extends Controller
             'souscategorie_id' => ['required'],
             'qte_stock' => ['required'],
             'photo1' => ['required'],
-            'photo2' => ['required'],
         ]);
 
         $prod                      = new Produit ;
@@ -35,8 +34,16 @@ class ProduitController extends Controller
         $prod->prix                = $request->prix;
         $prod->souscategorie_id    = $request->souscategorie_id;
         $prod->qte_stock          = $request->qte_stock;
-        $prod->type              = $request->type;
-        $prod->taille              = $request->taille;
+        if($request->type){
+            $prod->type              = $request->type;
+        }else{
+            $prod->type              = 'Autre';
+        }
+        if($request->taille){
+           $prod->taille               = $request->taille;
+        }else{
+           $prod->taille               = 'Aucune';
+        }
         $prod->couleur              = $request->couleur;
         $prod->description       = $request->description;
         $prod->slug              = Str::slug("$request->token". Hash::make($request->libelle),"-");
